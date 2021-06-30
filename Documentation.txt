@@ -1,0 +1,4 @@
+dev-doc.io
+mdn (mozilla developer network)
+crop-circle-image
+ut8 character and emoji
