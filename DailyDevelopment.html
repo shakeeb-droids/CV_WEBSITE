@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Daily New Learning Journal</h1>
+        <p>I document here if I have encountered some good and challenging
+            task in my day or I learnt something which is professional
+        </p>
+        <hr noshade="0px">
+        <br>
+        <h3>Java Learnings</h3>
+        <table>
+            <ul>
+                <p><strong>Jul 2, 2021: Formatting 12 hour time to 24 hour time
+                    using Date Class. Its pretty fascinating how Java renders users
+                    to create their own data type and object. Well here I used predefined Class
+                    called Date from util library.
+                    Few thing to keep in mind are the library from text package.Which are:
+                    <li> java.text.ParseException;<br>
+                        import java.util.Date;<br>
+                        import java.text.SimpleDateFormat;<br>
+                        import java.text.ParseException;br 
+                        import java.text.DateFormat;<br>
+                    </li>
+                     </strong><br>
+                    <em>So few things to keep in mind are: You have to first create an object from DateFormat Class
+                        and define the 12 hour notation as hh:mm:ss aa within quotes (ex:12:00:00 AM)
+                        another object of DateFormat to convert it to 24 hour the same way but hh as HH this time and no aa.
+                        Date variable initialized to null
+                        and now comes the most important part:<br>
+                        <strong>time = inputdate.parse(str); //input variable conversion from string to Date data type in a 12 hour format <br>
+                            result = e.format(time); //String type to store the variable time after formatting it to 24 hour using object 'e' created earlier</strong>
+                    </em>
+                    </p>
+                    <a href="/home/mdshahid/Desktop/HTML PROJECTS/PersonalSite/PersonalSite/datetimeclass.png" width: 50px height: 90 px> Code:</a>
+                    <br>
+                    <hr>
+
+            </ul>
+        </table>
+</body>
+</html>
